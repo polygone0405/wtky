@@ -1,0 +1,32 @@
+
+
+#logo-link {
+	color:black;
+}
+
+header, main, article {
+	display:flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	padding: 5px 0px 5px 0px;
+}
+
+main{
+	border: 2px black solid ;
+	border-radius: 10px;
+	margin: 0 3vw 0 3vw;
+	padding:5px;
+
+}
+dl {
+	border: 2px black solid;
+	border-radius: 5px;
+	padding:10px;
+}
+
+ol {
+	display:flex;
+	flex-direction:column;
+	text-align: start;
+}
