@@ -4,12 +4,18 @@
 	color:black;
 }
 
+body {
+	white-space:initial;
+}
+
 header, main, article {
 	display:flex;
 	align-items: center;
 	text-align: center;
 	flex-direction: column;
 	padding: 5px 0px 5px 0px;
+
+
 }
 
 main{
@@ -29,4 +35,8 @@ ol {
 	display:flex;
 	flex-direction:column;
 	text-align: start;
+}
+
+th, td {
+	border: 2px black solid;
 }
